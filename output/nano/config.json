@@ -1,0 +1,51 @@
+{
+  "_name_or_path": "./../pretrained_model",
+  "architectures": [
+    "BertForTokenClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "classifier_dropout": null,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "B-nanoparticle",
+    "1": "I-nanoparticle",
+    "2": "B-material",
+    "3": "I-material",
+    "4": "B-event",
+    "5": "I-event",
+    "6": "B-property",
+    "7": "I-property",
+    "8": "B-technique",
+    "9": "I-technique",
+    "10": "O"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "B-event": 4,
+    "B-material": 2,
+    "B-nanoparticle": 0,
+    "B-property": 6,
+    "B-technique": 8,
+    "I-event": 5,
+    "I-material": 3,
+    "I-nanoparticle": 1,
+    "I-property": 7,
+    "I-technique": 9,
+    "O": 10
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "torch_dtype": "float32",
+  "transformers_version": "4.29.1",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 28996
+}
